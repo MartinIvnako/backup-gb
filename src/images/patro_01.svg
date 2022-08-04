@@ -1,0 +1,1425 @@
+ <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="447.78"
+      height="307.2"
+      viewBox="0 0 447.78 307.2"
+    >
+      <g id="svg-mapa-prizemi_bez_stinu" transform="translate(-.05 .02)">
+        <g id="Vrstva_128" data-name="Vrstva 128">
+          <path
+            id="Path_2"
+            fill="#fff"
+            d="M181.36 347.57L101 269.17l215.62-157.46 232.16.67-47.11 280.28L469 415.2h-90.47l10.81-68.43h-11.82s-18.51 2.65-25.91 1.64-15.48-4-31.79-.33-39.54 5.72-53.17 5.21-33.64-4-48.45-5.89a147.7 147.7 0 00-28.76-.5l-3.71-2.69z"
+            data-name="Path 2"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g data-place="49">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M322.71 95.67l7.45-48.24 15.01-.08 6.31-37.6 81.89.13-14.13 85.92z"
+          ></path>
+          <path
+            id="logo"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M360.38 21.6v47.576h52.93V21.6z"
+          ></path>
+          <path
+            id="popup"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M330.137 88.392v1.92h1.963v-1.92z"
+          ></path>
+        </g>
+        <g data-place="50">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M313.97 9.54l35.87.18-6.1 36.12-35.87.3z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-2"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M317.86 14.005v19.789h23.034V14.005z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-2"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M311.893 41.468v1.793h1.895v-1.793z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="51">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M419.07 97.73l-9.3 56.99-83.27-.12 1.26-7.7h-13.63l7.95-49.5z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-3"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M327.531 104.118V128.7h79.846v-24.582z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-3"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M320.9 139.998v1.893h1.961v-1.893z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="52">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M313.71 148.33l12.37.17-1.1 6.03-7.86.07z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-4"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M317.551 149.93v1.764h5.829v-1.764z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-4"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M317.836 153.193v.6h.7v-.6z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="53">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M317.37 156.43h91.94l-5.22 30.8-91.35-.17z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-5"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M321.875 161.425v15.686h75.194v-15.686z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-5"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M316.555 182.551v1.75h1.889v-1.75z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="54">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M307.02 221.38l5.05-32.21h91.94l-4.8 32.21z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-6"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M316.555 194.84v14.966h76.723V194.84z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-6"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M311.061 216.536v2h2.326v-2z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="55">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M306.77 223.07h74.02l-7.99 50.63-26.83 18.09-50.39-.17z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-7"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M311.663 228.025v34.246h55.594v-34.246z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-7"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M301.958 284.7v2.734h2.683V284.7z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="56">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M288.39 238.75l9.47.26-3.79 27.25h-9.72z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-8"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M289.597 240.632v8.708h5.137v-8.708z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-8"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M287.164 262.819v1.393h1.216v-1.393z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="57">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M340.84 329.61l1.14-7.27 1.43-2.82 6.69 3.66-.89 6.81s-2.21-.21-8.37-.38z"
+            data-name="position"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="logo-9"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M242.234 215.527v3.354h4.967v-3.354z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-9"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M240.777 220.443v.53h.566v-.53z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="58">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M343.62 319a32.34 32.34 0 0110.73-6.9c.16.09 6.07 9.4 6.07 9.4l-1.6 10.18a91.7 91.7 0 00-9.06-1.53l1-7.28z"
+            data-name="position"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="logo-10"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M248.05 208.503v3.26h6.412v-3.26z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-10"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M251.136 219.71v.884h.907v-.884z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="59">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M354.81 311.74l15.57-7.43 5.36 7.95-1.07 6.34 16.21.07-1.88 11.48h-8S368.05 332 366.47 332s-7.12-.3-7.12-.3l1.65-10.37z"
+            data-name="position"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="logo-11"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M260.331 203.256v5.515h10.729v-5.515z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-11"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M261.331 220.593v1.133h1v-1.133z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="60">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M269.88 196.08l8.07-3.79 5.05 7.7-1.7 10.16h-6.94l.94-6.06z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-12"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M273.391 196.387v2.733h5.916v-2.733z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-12"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M276.573 207.449v.975h.852v-.975z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="61">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M287.29 186.42l5.39 7.86-2.58 15.96-8.24-.09 1.83-10.35-5.23-7.82z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-13"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M282.441 192.034v2.929h6.768v-2.929z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-13"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M284.3 207.37v.973h.932v-.973z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g id="Vrstva_62" data-name="Vrstva 62">
+          <path
+            id="Path_16"
+            fill="#e2e1e1"
+            d="M308.54 332.05a163.706 163.706 0 0018.76-2.73c0 .08 2.06-12 2.06-12H318.6l-8.84 6.31z"
+            data-name="Path 16"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_63" fill="#e2e1e1" data-name="Vrstva 63">
+          <path
+            id="Path_17"
+            d="M231.41 280.53l4.54-3 4.67-.1-1.18 7.48-4.16 2.91a19.5 19.5 0 01-3.87-7.29z"
+            data-name="Path 17"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_18"
+            d="M241.38 277.5h10.18l-2.75 16L246 297a44.64 44.64 0 01-10.42-8.52 55.488 55.488 0 004.63-3.37z"
+            data-name="Path 18"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_64" data-name="Vrstva 64">
+          <path
+            id="Path_19"
+            fill="#e2e1e1"
+            d="M252.31 277.38l9.09.09-4 24.1s-6.64-1.34-10.69-4.2a44 44 0 002.93-3.47z"
+            data-name="Path 19"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_65" data-name="Vrstva 65">
+          <path
+            id="Path_20"
+            fill="#e2e1e1"
+            d="M261.3 283.09l5.75-.08-1.17 7 4.73.09-1.93 12.9a62.221 62.221 0 01-10.5-1.2z"
+            data-name="Path 20"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_66" data-name="Vrstva 66">
+          <path
+            id="Path_21"
+            fill="#e2e1e1"
+            d="M168.62 194.97l4.83-32.72 14.26-.04-5.02 31.15-9.18 1.61z"
+            data-name="Path 21"
+          ></path>
+        </g>
+        <g id="Vrstva_67" data-name="Vrstva 67">
+          <path
+            id="Path_22"
+            fill="#e2e1e1"
+            d="M289.32 270.23l14.56-.09-4.21 29.44s-12.62 1.14-15.27 1.77c.04 0 4.92-31.12 4.92-31.12z"
+            data-name="Path 22"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g data-place="68">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M230.48 271.63l4-1.76 69.52-.51 3.91-25.23-53.31.19-1.7 8.2-21.13.06s-1.46 9.65-1.64 11.11a34.261 34.261 0 00.35 7.94z"
+            data-name="position"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="logo-14"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M157.752 141.254v15.122h40.854v-15.122z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-14"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M132.181 157.98v1.25h1.352v-1.25z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="70">
+          <path
+            id="Path_24"
+            fill="#e2e1e1"
+            d="M233.26 243.56s1-6.47 2.19-8.33c.06.07 14.17 3.91 14.17 3.91l-.75 4.55z"
+            data-name="Path 24"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="popup-15"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M133.374 134.258v.512h.593v-.512z"
+            data-name="popup"
+          ></path>
+          <path
+            id="logo-15"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M135.149 131.44v2.2h9.786v-2.2z"
+            data-name="logo"
+          ></path>
+        </g>
+        <g data-place="69">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M152.92 136.34l-1.34 7.53-20.74.07 1.35-7.64z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-16"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M133.558 137.71v3.817h17.154v-3.817z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-16"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M132.022 142.612v.525h.592v-.525z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="71">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M235.62 234.6s2.1-5.25 8.32-12.82c.34.16 24 16.1 24 16.1l-.8 5.77-15.69-.05-1.45-5.09z"
+            data-name="position"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="logo-17"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M140.677 121.752v4.257h10.153v-4.257z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-17"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M151.929 133.14v1.016h1.121v-1.016z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="72">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M244.49 221.1s40.38-33.85 69.48-51c.42 1.34 2.4 8.24 2.4 8.24h3.19l-.06 1.2 9.78 9.4-1.7 1.26 2.52 2.27 1.58-1.26.5.82h10.54l-5.87 36.15 3.78.06-2.39 14.76-68.2.63-1.62-6.41z"
+            data-name="position"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="logo-18"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M180.589 95.819v19.355h45.121V95.819z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-18"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M172.367 131.065v1.6h1.564v-1.6z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="73">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M214.12 61.65l6.56-3.07-1.85 10.93h-2.78z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-19"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M215.753 61.996v1.828h3.019v-1.828z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-19"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M216.603 68.283v.723h.8v-.727z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="74">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M232.73 77h-1.81l-7.86-7.19 2.03-11.9h23.87l-2.29 13.39h-13.06z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-20"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M226.866 59.59v8.351h18.27V59.59z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-20"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M230.71 73.695v1.07h1.151v-1.07z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="75">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M249.81 57.92l9.6.03-2.14 13.33h-9.72z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-21"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M251.259 59.476v7.06h5.111v-7.06z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-21"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M249.091 69.464v.785h.8v-.785z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="77">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M269.61 57.95l9.82.02-2.31 13.31-9.8-.02z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-22"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M270.933 59.46v8.186h5.117V59.46z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-22"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M268.711 69.64v.754h.824v-.754z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="78">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M280.44 57.88l21.83.07 6.62 6.75-4.22 24.79h-60l1.58-8.45h1.96l.56-3.47h2.27l.76-5.34 26.06.04z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-23"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M283.796 62.643v21.48h17.524v-21.48z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-23"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.1"
+            d="M247.691 86.468v1.3h1.275v-1.3z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="79">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M300.22 299.46l8.62-55.33 53.87-.44-1.32 9.31 15.33-.06-3.72 24.9-28.75-.21-2 11.82-12-.15-2.15 13.18-2.08.38a45.217 45.217 0 00-7-2c-3.83-.73-18.8-1.4-18.8-1.4z"
+            data-name="position"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_67"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M214.009 143.724v17.944h39.367v-17.944z"
+            data-name="Path 67"
+          ></path>
+          <path
+            id="Path_68"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M221.958 188.568v1.547h1.651v-1.547z"
+            data-name="Path 68"
+          ></path>
+        </g>
+        <g id="Vrstva_80" data-name="Vrstva 80">
+          <path
+            id="Path_34"
+            fill="#e2e1e1"
+            d="M228 194.43l7.15-.38 2.1-12.03-7.31-.17z"
+            data-name="Path 34"
+          ></path>
+        </g>
+        <g id="Vrstva_81" data-name="Vrstva 81">
+          <path
+            id="Path_35"
+            fill="#e2e1e1"
+            d="M235.9 194.05l2.06-12.03 4 .08 1.94-11.94 7.23.04-3.58 22.21z"
+            data-name="Path 35"
+          ></path>
+        </g>
+        <g id="Vrstva_82" data-name="Vrstva 82">
+          <path
+            id="Path_36"
+            fill="#e2e1e1"
+            d="M251.89 170.24l8.95.09-2.98 18.88-9.72 3.03z"
+            data-name="Path 36"
+          ></path>
+        </g>
+        <g id="Vrstva_83" data-name="Vrstva 83">
+          <path
+            id="Path_37"
+            fill="#e2e1e1"
+            d="M359.35 297l3.2-18.68 10.43.09 5.76 8.32s-10.26 6.88-19.39 10.27z"
+            data-name="Path 37"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_84" data-name="Vrstva 84">
+          <path
+            id="Path_38"
+            fill="#e2e1e1"
+            d="M281.45 176.17l9.63-6.39.11-1.2-12.04-6.26-5.31.02-.61 3.78 4.03-.04-.57 3.06z"
+            data-name="Path 38"
+          ></path>
+        </g>
+        <g id="Vrstva_85" data-name="Vrstva 85">
+          <path
+            id="Path_39"
+            fill="#e2e1e1"
+            d="M374.89 269.74l1.07-6.91h19a66.572 66.572 0 01-2.59 13.23c0-.21-12.07-6.31-12.07-6.31z"
+            data-name="Path 39"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_86" data-name="Vrstva 86">
+          <path
+            id="Path_40"
+            fill="#e2e1e1"
+            d="M294 154.34l1.54-9.5-15.72.06-1.43 9.44z"
+            data-name="Path 40"
+          ></path>
+        </g>
+        <g id="Vrstva_87" data-name="Vrstva 87">
+          <path
+            id="Path_41"
+            fill="#e2e1e1"
+            d="M295.71 144.38l3.94-24.51-34.47-.03-3.83 24.49z"
+            data-name="Path 41"
+          ></path>
+        </g>
+        <g data-place="88">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M261.89 134.72l-21.93-.02 2.51-16.36h-2.53l4-24.31h1.89l.63-3.45 58.12-.04-2.81 17.5-35.39.5z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-24"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M249.415 93.992v9.663h49.062v-9.663z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-24"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M243.703 130.44v1.825h1.911v-1.825z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="89-b">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M294.1 34.02l-2.14 13.12-6.65.08 2.1-13.12z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-25"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M288.344 35.319v8.8h2.825v-8.8z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-25"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M286.5 45.587v.745h.772v-.745z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="89-a">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M300.35 47.25l2.11-13.18-7.55-.1-2.13 13.22z"
+            data-name="position"
+          ></path>
+          <path
+            id="Path_69"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M295.819 35.207v9.319h3.73v-9.319z"
+            data-name="Path 69"
+          ></path>
+          <path
+            id="Path_70"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M293.949 45.642v.717h.791v-.717z"
+            data-name="Path 70"
+          ></path>
+        </g>
+        <g data-place="90">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M276.82 33.97l9.68.07-2.15 13.28h-9.84z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-26"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M278.008 35.387v8.8h5.232v-8.8z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-26"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M276.077 45.47v.822h.813v-.822z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="91">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M273.5 47.28l3.44-19.96h-12.36l-3.32 19.93z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-27"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M266.326 29.813v12.411h5.712V29.813z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-27"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M263.95 44.316v.941h1.018v-.941z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="92">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M260.19 47.24l3.41-20.71h.69l.63-3.69h-17.2l-3.88 24.35z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-28"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M249.912 25.491v16.7h8.159v-16.7z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-28"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M246.447 44.232v1.079h1.063v-1.079z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g data-place="93">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M242.69 47.19l3.94-24.41-13.66.12-1.2 6.63h-1.95l-2.94 17.69z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-29"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M234.897 25.489v16.693h5.888V25.489z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-29"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M229.848 44.082v1.234h1.346v-1.234z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g id="Vrstva_94" data-name="Vrstva 94">
+          <path
+            id="Path_49"
+            fill="#e2e1e1"
+            d="M216.85 47.52l6.23-38.02-9.34-.09-11.78 8.54 3.85 3.66 2.04 6.56-3.36 19.26z"
+            data-name="Path 49"
+          ></path>
+        </g>
+        <g id="Vrstva_95" data-name="Vrstva 95">
+          <path
+            id="Path_50"
+            fill="#e2e1e1"
+            d="M201.02 47.41l4.35-25.17-4.1-3.91-24.25 18.04 13.59 13z"
+            data-name="Path 50"
+          ></path>
+        </g>
+        <g id="Vrstva_96" data-name="Vrstva 96">
+          <path
+            id="Path_51"
+            fill="#e2e1e1"
+            d="M189.82 49.81L176.35 37l-7.93 5.53 12.28 11.95z"
+            data-name="Path 51"
+          ></path>
+        </g>
+        <g id="Vrstva_97" data-name="Vrstva 97">
+          <path
+            id="Path_52"
+            fill="#e2e1e1"
+            d="M167.77 43.25l12.11 11.8-9.02 4.35-10.93-10.73z"
+            data-name="Path 52"
+          ></path>
+        </g>
+        <g id="Vrstva_98" data-name="Vrstva 98">
+          <path
+            id="Path_53"
+            fill="#e2e1e1"
+            d="M170.1 59.97l-10.97-10.69-7.72 5.58 10.81 10.22z"
+            data-name="Path 53"
+          ></path>
+        </g>
+        <g id="Vrstva_99" data-name="Vrstva 99">
+          <path
+            id="Path_54"
+            fill="#e2e1e1"
+            d="M150.67 55.42l10.79 10.29-16.21 11.6-10.73-10.25z"
+            data-name="Path 54"
+          ></path>
+        </g>
+        <g id="Vrstva_100" data-name="Vrstva 100">
+          <path
+            id="Path_55"
+            fill="#e2e1e1"
+            d="M144.62 77.95l-10.73-10.29-12.55 9.15 12.9 12.49 2.49-4.92z"
+            data-name="Path 55"
+          ></path>
+        </g>
+        <g id="Vrstva_101" data-name="Vrstva 101">
+          <path
+            id="Path_56"
+            fill="#e2e1e1"
+            d="M122.05 90.46l2.15-1.64 6.43 6.1-5.8 10.76-8.58-8.2-2.61 1.94-9.79-9.35 9.62-6.76 4.21 4.33.79-.61z"
+            data-name="Path 56"
+          ></path>
+        </g>
+        <g id="Vrstva_102" data-name="Vrstva 102">
+          <path
+            id="Path_57"
+            fill="#e2e1e1"
+            d="M225.53 214.41l-8.36-8-2.84 2-10.13-9.67-40.65 29.5 2.21 2h52.3s3.59-9 4-9.84 3.47-5.99 3.47-5.99z"
+            data-name="Path 57"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_103" data-name="Vrstva 103">
+          <path
+            id="Path_58"
+            fill="#e2e1e1"
+            d="M62.04 120.82l2.52 2.32 52.24-.13-6.25 23.58h-56.4l-11.67-11.42z"
+            data-name="Path 58"
+          ></path>
+        </g>
+        <g id="Vrstva_104" data-name="Vrstva 104">
+          <path
+            id="Path_59"
+            fill="#e2e1e1"
+            d="M211.22 255.3H154.7l-11.95-11.78-24.56 17.92L157.14 299 177 284.4l1.85 1.6 8.32-6.06 22.3-2.27s-1.53-3.36 1.75-22.37z"
+            data-name="Path 59"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_105" data-name="Vrstva 105">
+          <path
+            id="Path_60"
+            fill="#e2e1e1"
+            d="M108.59 170.56l2.53 8.94-14.81 10.51-6.98-6.39-2.86 2.27-7.46-7.32 7.5-5.8z"
+            data-name="Path 60"
+          ></path>
+        </g>
+        <g id="Vrstva_106" data-name="Vrstva 106">
+          <path
+            id="Path_61"
+            fill="#e2e1e1"
+            d="M187.59 314.43l26.83-19.68s3.11 6.22 7 9.5c-.06.13-28.51 20.48-28.51 20.48l-6.8-6.35 3.47-2.27z"
+            data-name="Path 61"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_110" data-name="Vrstva 110">
+          <path
+            id="Path_62"
+            fill="#e2e1e1"
+            d="M222.16 305l-20.36 14.73 3.53 3.32 22.13-8.12a34.76 34.76 0 00-5.3-9.93z"
+            data-name="Path 62"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_109" data-name="Vrstva 109">
+          <path
+            id="Path_63"
+            fill="#e2e1e1"
+            d="M201 320.36l-14.13 10.51 5 5.05 4.29-2.9 2.4 2.27a138.89 138.89 0 0129.4 1.22c.17-.08 5-10.35-.13-20.78.13 0-22.92 8.25-22.92 8.25z"
+            data-name="Path 63"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g data-place="76">
+          <path
+  data-position
+            fill="#e2e1e1"
+            d="M260.23 57.97h8.71l-2.25 13.31-8.73-.04z"
+            data-name="position"
+          ></path>
+          <path
+            id="logo-30"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M261.581 59.422v7.854h4.32v-7.854z"
+            data-name="logo"
+          ></path>
+          <path
+            id="popup-30"
+            fill="none"
+            stroke="#707070"
+            strokeWidth="0.2"
+            d="M259.431 69.482v.794h.844v-.794z"
+            data-name="popup"
+          ></path>
+        </g>
+        <g id="Vrstva_117" data-name="Vrstva 117">
+          <circle
+            id="Ellipse_26"
+            cx="11.06"
+            cy="11.06"
+            r="11.06"
+            fill="#87be42"
+            data-name="Ellipse 26"
+            transform="translate(126.83 80.44)"
+          ></circle>
+          <g id="Group_453" data-name="Group 453">
+            <g id="Group_452" fill="#fff" data-name="Group 452">
+              <g id="Group_450" data-name="Group 450">
+                <path
+                  id="Path_628"
+                  d="M239.41 196.66a.76.76 0 00-.72-.47h-3a.72.72 0 00-.72.47l-1.33 4a.68.68 0 00.38.85.66.66 0 00.84-.38l.36-.95v5.93a.88.88 0 001.75 0v-3.67h.34v3.66a.88.88 0 101.76 0v-5.89l.34.92a.63.63 0 00.83.38.65.65 0 00.37-.84z"
+                  data-name="Path 628"
+                  transform="translate(-100.95 -108.02)"
+                ></path>
+                <ellipse
+                  id="Ellipse_27"
+                  cx="1.89"
+                  cy="1.87"
+                  data-name="Ellipse 27"
+                  rx="1.89"
+                  ry="1.87"
+                  transform="translate(134.37 83.99)"
+                ></ellipse>
+              </g>
+              <g id="Group_451" data-name="Group 451">
+                <path
+                  id="Path_629"
+                  d="M246.22 198.13a.165.165 0 01-.15.27h-2.19c-.18 0-.24-.12-.15-.27l1.08-1.75a.17.17 0 01.23-.09.16.16 0 01.09.09z"
+                  data-name="Path 629"
+                  transform="translate(-100.95 -108.02)"
+                ></path>
+                <path
+                  id="Path_630"
+                  d="M243.73 200c-.09-.14 0-.26.15-.26h2.19c.17 0 .24.12.15.26l-1.08 1.75a.18.18 0 01-.24.09.16.16 0 01-.09-.09z"
+                  data-name="Path 630"
+                  transform="translate(-100.95 -108.02)"
+                ></path>
+              </g>
+            </g>
+          </g>
+          <circle
+            id="Ellipse_26-2"
+            cx="11.06"
+            cy="11.06"
+            r="11.06"
+            fill="#87be42"
+            data-name="Ellipse 26"
+            transform="translate(193.6 186.04)"
+          ></circle>
+          <g id="Group_453-2" data-name="Group 453">
+            <g id="Group_452-2" fill="#fff" data-name="Group 452">
+              <g id="Group_450-2" data-name="Group 450">
+                <path
+                  id="Path_628-2"
+                  d="M306.17 302.26a.75.75 0 00-.72-.47h-3a.73.73 0 00-.73.47l-1.32 4a.66.66 0 00.38.85.65.65 0 00.83-.38l.35-.95v5.93a.88.88 0 001.76 0v-3.67h.34v3.66a.88.88 0 101.75 0v-5.89l.34.92a.64.64 0 00.84.38.65.65 0 00.38-.84z"
+                  data-name="Path 628"
+                  transform="translate(-100.95 -108.02)"
+                ></path>
+                <ellipse
+                  id="Ellipse_27-2"
+                  cx="1.89"
+                  cy="1.87"
+                  data-name="Ellipse 27"
+                  rx="1.89"
+                  ry="1.87"
+                  transform="translate(201.13 189.59)"
+                ></ellipse>
+              </g>
+              <g id="Group_451-2" data-name="Group 451">
+                <path
+                  id="Path_629-2"
+                  d="M313 303.73a.165.165 0 01-.15.27h-2.19c-.17 0-.24-.12-.15-.27l1.08-1.75a.18.18 0 01.24-.09.2.2 0 01.09.09z"
+                  data-name="Path 629"
+                  transform="translate(-100.95 -108.02)"
+                ></path>
+                <path
+                  id="Path_630-2"
+                  d="M310.49 305.63c-.09-.14 0-.26.15-.26h2.2c.17 0 .23.12.14.26l-1.08 1.75a.17.17 0 01-.23.09.14.14 0 01-.09-.09z"
+                  data-name="Path 630"
+                  transform="translate(-100.95 -108.02)"
+                ></path>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Vrstva_116" data-name="Vrstva 116">
+          <g id="Group_471" data-name="Group 471">
+            <circle
+              id="Ellipse_23"
+              cx="11.26"
+              cy="11.26"
+              r="11.26"
+              fill="#e95c0c"
+              data-name="Ellipse 23"
+              transform="translate(177.48 208.16)"
+            ></circle>
+            <g id="Group_443" fill="#fff" data-name="Group 443">
+              <path
+                id="Path_621"
+                d="M289 323.46a1.76 1.76 0 10-1.248-.519 1.77 1.77 0 001.248.519z"
+                data-name="Path 621"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_622"
+                d="M293.93 324.21l-7.21 6.52a.51.51 0 01-.33.13h-3.7a.5.5 0 00-.5.5v1.46a.5.5 0 00.5.51h4.44a.51.51 0 00.33-.13l7.21-6.52a.51.51 0 01.33-.13h3.28a.5.5 0 00.5-.5v-1.47a.49.49 0 00-.49-.5h-4a.51.51 0 00-.36.13z"
+                data-name="Path 622"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_623"
+                d="M289 324a1.91 1.91 0 00-1.91 1.91v3.26l3.81-3.45A1.91 1.91 0 00289 324z"
+                data-name="Path 623"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_624"
+                d="M288.8 333.3h2.2a.51.51 0 00.31-.11l6.25-5.67h-2.16a.42.42 0 00-.3.12z"
+                data-name="Path 624"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+            </g>
+          </g>
+          <g id="Group_471-2" data-name="Group 471">
+            <circle
+              id="Ellipse_23-2"
+              cx="11.26"
+              cy="11.26"
+              r="11.26"
+              fill="#e95c0c"
+              data-name="Ellipse 23"
+              transform="translate(292.68 111.21)"
+            ></circle>
+            <g id="Group_443-2" fill="#fff" data-name="Group 443">
+              <path
+                id="Path_621-2"
+                d="M404.15 226.51a1.76 1.76 0 10-1.248-.519 1.77 1.77 0 001.248.519z"
+                data-name="Path 621"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_622-2"
+                d="M409.13 227.26l-7.21 6.52a.51.51 0 01-.33.13h-3.7a.5.5 0 00-.5.5v1.46a.51.51 0 00.5.51h4.44a.47.47 0 00.33-.14l7.21-6.51a.51.51 0 01.33-.13h3.28a.5.5 0 00.5-.5v-1.47a.49.49 0 00-.49-.5h-4a.51.51 0 00-.36.13z"
+                data-name="Path 622"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_623-2"
+                d="M404.16 227a1.91 1.91 0 00-1.91 1.91v3.26l3.81-3.45a1.9 1.9 0 00-1.9-1.72z"
+                data-name="Path 623"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_624-2"
+                d="M404 236.35h2.16a.47.47 0 00.31-.12l6.25-5.66h-2.16a.42.42 0 00-.3.12z"
+                data-name="Path 624"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+            </g>
+          </g>
+          <g id="Group_471-3" data-name="Group 471">
+            <circle
+              id="Ellipse_23-3"
+              cx="11.26"
+              cy="11.26"
+              r="11.26"
+              fill="#e95c0c"
+              data-name="Ellipse 23"
+              transform="translate(173.55 55.57)"
+            ></circle>
+            <g id="Group_443-3" fill="#fff" data-name="Group 443">
+              <path
+                id="Path_621-3"
+                d="M285 170.87a1.77 1.77 0 10-1.76-1.76 1.77 1.77 0 001.76 1.76z"
+                data-name="Path 621"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_622-3"
+                d="M290 171.62l-7.2 6.52a.55.55 0 01-.34.13h-3.7a.5.5 0 00-.5.5v1.47a.51.51 0 00.5.5h4.44a.55.55 0 00.34-.13l7.2-6.52a.51.51 0 01.34-.13h3.28a.5.5 0 00.5-.5V172a.5.5 0 00-.5-.5h-4a.5.5 0 00-.36.12z"
+                data-name="Path 622"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_623-3"
+                d="M285 171.36a1.91 1.91 0 00-1.9 1.91v3.26l3.81-3.44a1.92 1.92 0 00-1.91-1.73z"
+                data-name="Path 623"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <path
+                id="Path_624-3"
+                d="M284.87 180.72H287a.5.5 0 00.31-.12l6.25-5.66h-2.16a.46.46 0 00-.3.11z"
+                data-name="Path 624"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+            </g>
+          </g>
+        </g>
+        <g id="Vrstva_121" fill="#1a9ed9" data-name="Vrstva 121">
+          <path
+            id="Path_647"
+            d="M357 359.64a10.88 10.88 0 1010.88 10.88A10.88 10.88 0 00357 359.64zm0 19.5a8.62 8.62 0 118.61-8.62 8.61 8.61 0 01-8.61 8.62z"
+            data-name="Path 647"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_648"
+            d="M358.34 367.8h-2.27v2.72h2.27a1.36 1.36 0 000-2.72z"
+            data-name="Path 648"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_649"
+            d="M357 362.82a7.71 7.71 0 107.7 7.7 7.7 7.7 0 00-7.7-7.7zm1.36 9.52h-2.27V376h-1.81v-9.1a.91.91 0 01.91-.91h3.17a3.18 3.18 0 010 6.35z"
+            data-name="Path 649"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_647-2"
+            d="M264.91 177.68a10.88 10.88 0 1010.88 10.88 10.88 10.88 0 00-10.88-10.88zm0 19.49a8.62 8.62 0 118.61-8.61 8.61 8.61 0 01-8.61 8.61z"
+            data-name="Path 647"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_648-2"
+            d="M266.27 185.84H264v2.72h2.27a1.36 1.36 0 000-2.72z"
+            data-name="Path 648"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_649-2"
+            d="M264.9 180.85a7.71 7.71 0 107.71 7.71 7.71 7.71 0 00-7.71-7.71zm1.36 9.52H264V194h-1.81v-9.07a.9.9 0 01.9-.9h3.18a3.17 3.17 0 110 6.34z"
+            data-name="Path 649"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_647-3"
+            d="M378.28 219.6a10.89 10.89 0 1010.88 10.89 10.89 10.89 0 00-10.88-10.89zm0 19.5a8.62 8.62 0 118.61-8.61 8.62 8.62 0 01-8.61 8.61z"
+            data-name="Path 647"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_648-3"
+            d="M379.64 227.77h-2.27v2.72h2.27a1.36 1.36 0 000-2.72z"
+            data-name="Path 648"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_649-3"
+            d="M378.27 222.78a7.71 7.71 0 107.71 7.7 7.71 7.71 0 00-7.71-7.7zm1.36 9.52h-2.26v3.63h-1.81v-9.07a.9.9 0 01.9-.91h3.18a3.18 3.18 0 010 6.35z"
+            data-name="Path 649"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_122" fill="#1a9ed9" data-name="Vrstva 122">
+          <path
+            id="Path_647-4"
+            d="M533.08 304.66A10.88 10.88 0 10544 315.54a10.88 10.88 0 00-10.92-10.88zm0 19.5a8.62 8.62 0 118.61-8.62 8.61 8.61 0 01-8.61 8.62z"
+            data-name="Path 647"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_648-4"
+            d="M534.44 312.82h-2.27v2.72h2.27a1.36 1.36 0 000-2.72z"
+            data-name="Path 648"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <path
+            id="Path_649-4"
+            d="M533.08 307.83a7.71 7.71 0 107.7 7.71 7.71 7.71 0 00-7.7-7.71zm1.36 9.53h-2.27V321h-1.81v-9.07a.9.9 0 01.91-.9h3.17a3.18 3.18 0 010 6.35z"
+            data-name="Path 649"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+        </g>
+        <g id="Vrstva_126" data-name="Vrstva 126">
+          <circle
+            id="Ellipse_31"
+            cx="10.88"
+            cy="10.88"
+            r="10.88"
+            fill="#58aeba"
+            data-name="Ellipse 31"
+            transform="translate(31.25 189.21)"
+          ></circle>
+          <g id="Group_461" data-name="Group 461">
+            <g id="Group_460" fill="#fff" data-name="Group 460">
+              <path
+                id="Path_637"
+                d="M139.2 310.48h-1.41s-.72 0-.72 1.09a.78.78 0 00.69.82h2.87a.79.79 0 00.75-.82v-.86a.2.2 0 01.17-.2h2.25a.07.07 0 01.07.06l.53 1.2a.91.91 0 001.09.67l.14-.05a.77.77 0 00.56-.94v-.1l-1.32-4a1.35 1.35 0 00-1.33-.75h-3.1c-1.67 0-3.08 1.95-1.17 3.83v.05z"
+                data-name="Path 637"
+                transform="translate(-100.95 -108.02)"
+              ></path>
+              <circle
+                id="Ellipse_32"
+                cx="2.08"
+                cy="2.08"
+                r="2.08"
+                data-name="Ellipse 32"
+                transform="translate(43.97 195.74)"
+              ></circle>
+            </g>
+          </g>
+        </g>
+        <g id="Vrstva_127" data-name="Vrstva 127">
+          <circle
+            id="Ellipse_20"
+            cx="10.88"
+            cy="10.88"
+            r="10.88"
+            fill="#58aeba"
+            data-name="Ellipse 20"
+            transform="translate(56.78 189.21)"
+          ></circle>
+          <g id="Group_437" fill="#fff" data-name="Group 437">
+            <path
+              id="Path_608"
+              d="M164.66 306.58a1.84 1.84 0 111.84-1.83 1.85 1.85 0 01-1.84 1.83z"
+              data-name="Path 608"
+              transform="translate(-100.95 -108.02)"
+            ></path>
+            <path
+              id="Path_609"
+              d="M164.66 313.31a.39.39 0 01-.35-.24l-2-5.2a.36.36 0 010-.35.37.37 0 01.31-.16h4a.37.37 0 01.34.51l-2 5.2a.39.39 0 01-.3.24z"
+              data-name="Path 609"
+              transform="translate(-100.95 -108.02)"
+            ></path>
+            <path
+              id="Path_610"
+              d="M172.55 306.58a1.84 1.84 0 111.83-1.83 1.83 1.83 0 01-1.83 1.83z"
+              data-name="Path 610"
+              transform="translate(-100.95 -108.02)"
+            ></path>
+            <path
+              id="Path_611"
+              d="M174.55 313.31h-4a.37.37 0 01-.31-.16.36.36 0 010-.35l2-5.2a.38.38 0 01.49-.21.39.39 0 01.21.21l2 5.2a.37.37 0 01-.21.48.35.35 0 01-.14 0z"
+              data-name="Path 611"
+              transform="translate(-100.95 -108.02)"
+            ></path>
+            <path
+              id="Path_612"
+              d="M168.61 313.31a.38.38 0 01-.38-.38v-9.65a.38.38 0 01.75 0v9.65a.38.38 0 01-.37.38z"
+              data-name="Path 612"
+              transform="translate(-100.95 -108.02)"
+            ></path>
+          </g>
+        </g>
+        <g id="Vrstva_124" data-name="Vrstva 124">
+          <path
+            id="Path_644"
+            fill="#ba3c8e"
+            d="M393.06 108a10.94 10.94 0 11-7.757 3.225A10.94 10.94 0 01393.06 108z"
+            data-name="Path 644"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <g id="Group_466" data-name="Group 466">
+            <path
+              id="Path_640"
+              fill="#fff"
+              d="M395.63 124l-.17.71c-.52.2-.93.36-1.24.46a3.3 3.3 0 01-1.08.17 2.22 2.22 0 01-1.47-.46 1.52 1.52 0 01-.52-1.17 3.638 3.638 0 010-.57 4.832 4.832 0 01.13-.64l.64-2.3q.09-.33.15-.63a2.329 2.329 0 00.06-.53.81.81 0 00-.18-.62 1 1 0 00-.7-.17 1.47 1.47 0 00-.51.08l-.46.14.18-.7a12.283 12.283 0 011.22-.45 3.43 3.43 0 011.1-.18 2 2 0 011.44.45 1.49 1.49 0 01.51 1.18v.52a3.829 3.829 0 01-.13.69l-.65 2.29c-.06.21-.1.42-.14.63a2.482 2.482 0 00-.06.54.75.75 0 00.2.62 1.17 1.17 0 00.71.17 2.35 2.35 0 00.53-.09 2.16 2.16 0 00.44-.14zm.17-9.61a1.36 1.36 0 01-.45 1 1.64 1.64 0 01-2.19 0 1.31 1.31 0 01-.45-1 1.33 1.33 0 01.45-1 1.64 1.64 0 012.19 0 1.36 1.36 0 01.45 1z"
+              data-name="Path 640"
+              transform="translate(-100.95 -108.02)"
+            ></path>
+          </g>
+          <path
+            id="Path_644-2"
+            fill="#ba3c8e"
+            d="M245.87 316.5a10.94 10.94 0 11-10.93 10.94 10.94 10.94 0 0110.93-10.94z"
+            data-name="Path 644"
+            transform="translate(-100.95 -108.02)"
+          ></path>
+          <g id="Group_466-2" data-name="Group 466">
+            <path
+              id="Path_640-2"
+              fill="#fff"
+              d="M248.45 332.47l-.18.71-1.24.47a3.581 3.581 0 01-1.08.16 2.13 2.13 0 01-1.46-.46 1.5 1.5 0 01-.53-1.17 5.085 5.085 0 010-.56 2.883 2.883 0 01.13-.65l.65-2.3a5.557 5.557 0 00.14-.63 2.33 2.33 0 00.06-.53.82.82 0 00-.18-.62 1 1 0 00-.69-.17 1.82 1.82 0 00-.52.08l-.45.15.17-.71c.43-.17.83-.32 1.22-.45a3.779 3.779 0 011.1-.18 2.16 2.16 0 011.45.45 1.55 1.55 0 01.51 1.18v.53a3.35 3.35 0 01-.13.69l-.64 2.29a5.814 5.814 0 00-.15.63 4.523 4.523 0 00-.06.53.77.77 0 00.2.62 1.19 1.19 0 00.71.17 2.517 2.517 0 00.54-.08 3.66 3.66 0 00.43-.15zm.16-9.6a1.33 1.33 0 01-.45 1 1.62 1.62 0 01-2.18 0 1.34 1.34 0 01-.46-1 1.36 1.36 0 01.46-1 1.62 1.62 0 012.18 0 1.38 1.38 0 01.45 1z"
+              data-name="Path 640"
+              transform="translate(-100.95 -108.02)"
+            ></path>
+          </g>
+        </g>
+      </g>
+    </svg>
