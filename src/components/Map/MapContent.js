@@ -162,13 +162,12 @@ export default class App extends Component {
                 );
                 // find position path
 
-                console.log("shopHover", shopHover);
-
                 let hoverPath = document.querySelector(
                     `.map__wrap svg g[data-place='${shopHover[0].field_shop_location_on_map}'] [data-popup]`
                 );
 
                 var hoverPathPosition = hoverPath.getBoundingClientRect();
+
                 var tooltipWrapperPosition =
                     tooltipWrapper.getBoundingClientRect();
 

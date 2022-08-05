@@ -2,8 +2,6 @@
 
 ## position popup
 
-## show active shops
-
 ## Map show bigger
 
 ## prepare api link
