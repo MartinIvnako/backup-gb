@@ -486,7 +486,7 @@ export default class App extends Component {
                                                                         >
                                                                             <img
                                                                                 src={
-                                                                                    l.field_image
+                                                                                    "http://local.projects.cz:8073/" + l.field_image
                                                                                 }
                                                                                 alt={
                                                                                     l.name

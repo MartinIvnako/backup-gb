@@ -180,7 +180,7 @@ class List extends React.Component {
                                         ></a>
                                     )}
                                     <div className="img-content">
-                                        <img src={item.field_shop_logo} />
+                                        <img src={"http://local.projects.cz:8073/" + item.field_shop_logo} />
                                     </div>
                                     <div className="info">
                                         <p className="title">{item.title}</p>

@@ -59,7 +59,8 @@ class App extends React.Component {
             ? "obchody-a-sluzby/restaurace"
             : urlEndWith;
 
-        let absoluteUrl = fullUrl.replace(urlEndWith, "");
+        let absoluteUrl = "http://local.projects.cz:8073/galerie-butovice/web/";
+        /*    let absoluteUrl = fullUrl.replace(urlEndWith, ""); */
 
         axios
             .get(
