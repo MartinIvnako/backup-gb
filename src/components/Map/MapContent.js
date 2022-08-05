@@ -97,24 +97,25 @@ export default class App extends Component {
     handleLegend(index) {
         const buttons = Array.from(
             document.querySelectorAll(".map__legend-button")
-        ),
-            services = Array.from(document.querySelectorAll(`[data-type]`)),
-            activeService = Array.from(
-                document.querySelectorAll(`[data-type="${index}"]`)
-            ),
-            activeButton = buttons[index];
+        );
+        const services = Array.from(document.querySelectorAll(`[data-type]`));
+        const activeService = Array.from(
+            document.querySelectorAll(`[data-type="${index}"]`)
+        );
+        const activeButton = buttons[index];
 
         this.props.resetCategoryStyles();
 
-        console.log("activeButton", activeButton)
+        console.log("activeButton", activeButton);
+        if (activeButton.classList.contains("active")) {
+            services.map((icon) => icon.classList.remove("active"));
+        } else {
+            buttons.map((button) => button.classList.remove("active"));
+            services.map((icon) => icon.classList.remove("active"));
+            activeButton.classList.add("active");
+            activeService.map((icon) => icon.classList.add("active"));
+        }
 
-        /*   activeButton.classList.contains("active")
-              ? (activeButton.classList.remove("active"),
-                  services.map((icon) => icon.classList.remove("active")))
-              : (buttons.map((button) => button.classList.remove("active")),
-                  services.map((icon) => icon.classList.remove("active")),
-                  activeButton.classList.add("active"),
-                  activeService.map((icon) => icon.classList.add("active"))); */
     }
 
     componentDidUpdate() {

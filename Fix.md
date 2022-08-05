@@ -1,7 +1,5 @@
 # We need fix this:
 
-## select legend - active lened on side and "toalet on svg floor"
-
 ## position popup
 
 ## show active shops
