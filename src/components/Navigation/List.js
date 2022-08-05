@@ -24,7 +24,8 @@ class List extends React.Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        let mapSubpage = window.location.href.endsWith("mapa-centra")
+        const fullUrl = "http://local.projects.cz:8073/galerie-butovice/web/mapa-centra";
+        let mapSubpage = fullUrl.endsWith("mapa-centra")
             ? true
             : false;
 
@@ -92,7 +93,8 @@ class List extends React.Component {
         }
         // Set the filtered state based on what our rules added to newList
         this.setState({
-            inputValue: event.target.inputValue,
+            /* TODO: MIV 2022 */
+            /*  inputValue: event.target.inputValue, */
             filtered: newList,
         });
     }
@@ -100,14 +102,15 @@ class List extends React.Component {
     keyPress(e) {
         if (e.keyCode == 13) {
             this.props.onFilteredShops(this.state.filtered);
-            document.querySelector(".map__legend .active")
-                ? (document
-                      .querySelector(".map__legend .active")
-                      .classList.remove("active"),
-                  Array.from(document.querySelectorAll(`[data-type]`)).map(
-                      (icon) => icon.classList.remove("active")
-                  ))
-                : null;
+            /* TODO: MIV 2022 */
+            /*   document.querySelector(".map__legend .active")
+                  ? (document
+                        .querySelector(".map__legend .active")
+                        .classList.remove("active"),
+                    Array.from(document.querySelectorAll(`[data-type]`)).map(
+                        (icon) => icon.classList.remove("active")
+                    ))
+                  : null; */
             this.setState({
                 activeSearch: false,
                 inputValue: "",
@@ -117,14 +120,15 @@ class List extends React.Component {
 
     searchClick(item) {
         let selectOneOnClick = [];
-        document.querySelector(".map__legend .active")
-            ? (document
-                  .querySelector(".map__legend .active")
-                  .classList.remove("active"),
-              Array.from(document.querySelectorAll(`[data-type]`)).map((icon) =>
-                  icon.classList.remove("active")
-              ))
-            : null;
+        /* TODO: MIV 2022 */
+        /*   document.querySelector(".map__legend .active")
+              ? (document
+                    .querySelector(".map__legend .active")
+                    .classList.remove("active"),
+                Array.from(document.querySelectorAll(`[data-type]`)).map((icon) =>
+                    icon.classList.remove("active")
+                ))
+              : null; */
         selectOneOnClick.push(item);
         this.props.onFilteredShops(
             selectOneOnClick ? selectOneOnClick : this.state.filtered

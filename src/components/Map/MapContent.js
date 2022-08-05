@@ -96,8 +96,8 @@ export default class App extends Component {
 
     handleLegend(index) {
         const buttons = Array.from(
-                document.querySelectorAll(".map__legend-button")
-            ),
+            document.querySelectorAll(".map__legend-button")
+        ),
             services = Array.from(document.querySelectorAll(`[data-type]`)),
             activeService = Array.from(
                 document.querySelectorAll(`[data-type="${index}"]`)
@@ -105,14 +105,14 @@ export default class App extends Component {
             activeButton = buttons[index];
 
         this.props.resetCategoryStyles();
-
-        activeButton.classList.contains("active")
-            ? (activeButton.classList.remove("active"),
-              services.map((icon) => icon.classList.remove("active")))
-            : (buttons.map((button) => button.classList.remove("active")),
-              services.map((icon) => icon.classList.remove("active")),
-              activeButton.classList.add("active"),
-              activeService.map((icon) => icon.classList.add("active")));
+        /* TODO: MIV 2022 */
+        /*   activeButton.classList.contains("active")
+              ? (activeButton.classList.remove("active"),
+                  services.map((icon) => icon.classList.remove("active")))
+              : (buttons.map((button) => button.classList.remove("active")),
+                  services.map((icon) => icon.classList.remove("active")),
+                  activeButton.classList.add("active"),
+                  activeService.map((icon) => icon.classList.add("active"))); */
     }
 
     componentDidUpdate() {
@@ -170,8 +170,7 @@ export default class App extends Component {
                 /* set position for tooltip */
                 tooltipWrapper.setAttribute(
                     "style",
-                    `top : ${
-                        hoverPathPosition.top - tooltipWrapperPosition.top + 10
+                    `top : ${hoverPathPosition.top - tooltipWrapperPosition.top + 10
                     }px; left:${hoverPathPosition.left}px;`
                 );
 
@@ -192,8 +191,7 @@ export default class App extends Component {
                 let markup = `
             <div class="map__tooltip">
               <p class="title">${shopHover[0].title}</p>
-                ${
-                    createString &&
+                ${createString &&
                     `
                   <ul class="open">
                   ${createString}
@@ -202,7 +200,7 @@ export default class App extends Component {
                     <img src="${shopHover[0].field_shop_logo}" alt="${shopHover[0].title}">
                   </div>
                   `
-                }
+                    }
             </div>
           `;
 
@@ -423,12 +421,12 @@ export default class App extends Component {
                                     limitsOnWheel,
                                     step: 200,
                                 }}
-                                //  defaultScale={1.01}
-                                //  defaultPositionX={0}
-                                //  defaultPositionY={0}
-                                //  options={{
-                                //    limitToWrapper: true,
-                                //  }}
+                            //  defaultScale={1.01}
+                            //  defaultPositionX={0}
+                            //  defaultPositionY={0}
+                            //  options={{
+                            //    limitToWrapper: true,
+                            //  }}
                             >
                                 {({
                                     zoomIn,
@@ -463,7 +461,7 @@ export default class App extends Component {
                                                         {activeFloor == 0
                                                             ? "Přízemí"
                                                             : activeFloor +
-                                                              ".PATRO"}
+                                                            ".PATRO"}
                                                     </p>
                                                     <ul>
                                                         {legend &&

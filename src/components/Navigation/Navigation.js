@@ -18,13 +18,15 @@ class Navigation extends React.Component {
     this.createUrl = this.createUrl.bind(this);
   }
 
+
   createUrl() {
-    const fullUrl = window.location.href;
-    let urlEndWith = window.location.href.endsWith("mapa-centra")
+    const fullUrl = "http://local.projects.cz:8073/galerie-butovice/web/mapa-centra";
+    // const fullUrl = fullUrl;
+    let urlEndWith = fullUrl.endsWith("mapa-centra")
       ? "mapa-centra"
       : "obchody-a-sluzby";
 
-    urlEndWith = window.location.href.endsWith("obchody-a-sluzby/restaurace")
+    urlEndWith = fullUrl.endsWith("obchody-a-sluzby/restaurace")
       ? "obchody-a-sluzby/restaurace"
       : urlEndWith;
 

@@ -26,9 +26,10 @@ class ModalMap extends React.Component {
       shopModal.classList.remove("open");
     });
     shopModal.addEventListener("click", function (e) {
-      e.target.classList.contains("shop-modal")
-        ? shopModal.classList.remove("open")
-        : null;
+      /* TODO: MIV 2022 */
+      /*    e.target.classList.contains("shop-modal")
+           ? shopModal.classList.remove("open")
+           : null; */
     });
 
     this.setState({
@@ -46,20 +47,20 @@ class ModalMap extends React.Component {
                 <div className="shop-modal__close"></div>
                 <div className="shop-modal__intro-wrapper">
 
-                {modalData[0] ? (
-                  modalData[0].field_shop_gallery_export ? (
+                  {modalData[0] ? (
+                    modalData[0].field_shop_gallery_export ? (
                       modalData[0].field_shop_gallery_export[0] !== undefined ? (
                         <div
-                        className="shop-modal__intro"
+                          className="shop-modal__intro"
 
-                        style={{
+                          style={{
                             backgroundImage: modalData[0].field_shop_gallery_export ? `url(${modalData[0].field_shop_gallery_export[0].media_image})` : `url(https://picsum.photos/id/348/600/250)`
                           }}
                         ></div>
                       ) : null
-                      ) : null
-                  ): null}
-                  </div>
+                    ) : null
+                  ) : null}
+                </div>
 
                 <div className="wrapper__shop-modal__category">
                   {modalData[0] ? (
@@ -74,13 +75,13 @@ class ModalMap extends React.Component {
                           ></span>
                           <p>{modalData[0].field_shop_category_export[i].name}</p>
                         </div>
-                      ): null
+                      ) : null
                     ))
                   ) : null}
 
                 </div>
                 <section className="shop-modal__content">
-                <div className="subheading shop-modal__title">
+                  <div className="subheading shop-modal__title">
                     <h2>{modalData[0] ? modalData[0].title : ""}</h2>
                   </div>
 

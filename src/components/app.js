@@ -38,21 +38,22 @@ class App extends React.Component {
     componentDidMount() {
         this.refreshPage();
 
+        const fullUrl = "http://local.projects.cz:8073/galerie-butovice/web/mapa-centra"
         // remove ID from url, take id to show active shop
         const idIncommingShop = window.location.search.substring(4, 8);
-        let newUrl = window.location.href.replace(window.location.search, "");
-        if (history.pushState) {
-            history.pushState(null, null, newUrl);
-        }
+        let newUrl = fullUrl.replace(window.location.search, "");
+        /* TODO: MIV 2022 */
+        /*  if (history.pushState) {
+             history.pushState(null, null, newUrl);
+         } */
 
-        let url = window.location.href.includes("mapa-centra") ? "map" : "list";
+        let url = fullUrl.includes("mapa-centra") ? "map" : "list";
         // create dynamic url for api
-        const fullUrl = window.location.href;
-        let urlEndWith = window.location.href.includes("mapa-centra")
+        let urlEndWith = fullUrl.includes("mapa-centra")
             ? "mapa-centra"
             : "obchody-a-sluzby";
 
-        urlEndWith = window.location.href.includes(
+        urlEndWith = fullUrl.includes(
             "obchody-a-sluzby/restaurace"
         )
             ? "obchody-a-sluzby/restaurace"
@@ -116,16 +117,19 @@ class App extends React.Component {
                 legend: res.data,
             });
         });
-
-        urlEndWith == "obchody-a-sluzby/restaurace";
+        /* TODO: MIV 2022 */
+        /* urlEndWith == "obchody-a-sluzby/restaurace"; */
         // categories data - name and color
         /*   axios.get(`${absoluteUrl}export/shops-categories`).then((res) => { */
 
         const subpageMap = document.querySelector("body");
 
-        let windowWidth = subpageMap
-            ? subpageMap.getBoundingClientRect().width
-            : 0;
+
+        /* TODO: MIV 2022 */
+        let windowWidth = 1920;
+        /*      let windowWidth = subpageMap
+                 ? subpageMap.getBoundingClientRect().width
+                 : 0; */
 
         axios
             .get(
@@ -151,12 +155,15 @@ class App extends React.Component {
         const subpageMap = document.querySelector(".path-mapa-centra");
         // getBoundingClientRect().width
         if (subpageMap) {
+            /* TODO: MIV 2022 */
+            /*  
             window.addEventListener("resize", () =>
                 this.state.windowWidth !=
-                subpageMap.getBoundingClientRect().width
-                    ? window.location.reload()
-                    : null
-            );
+                     subpageMap.getBoundingClientRect().width
+                     ? window.location.reload()
+                     : null 
+                     );
+                     */
         }
     }
 
@@ -249,18 +256,18 @@ class App extends React.Component {
                     categoryString[0].name === category
                         ? categoryString[0].name
                         : null ||
-                          (categoryString[1] &&
-                              categoryString[1].name === category)
-                        ? categoryString[1].name
-                        : null ||
-                          (categoryString[2] &&
-                              categoryString[2].name === category)
-                        ? categoryString[1].name
-                        : null ||
-                          (categoryString[3] &&
-                              categoryString[3].name === category)
-                        ? categoryString[1].name
-                        : null
+                            (categoryString[1] &&
+                                categoryString[1].name === category)
+                            ? categoryString[1].name
+                            : null ||
+                                (categoryString[2] &&
+                                    categoryString[2].name === category)
+                                ? categoryString[1].name
+                                : null ||
+                                    (categoryString[3] &&
+                                        categoryString[3].name === category)
+                                    ? categoryString[1].name
+                                    : null
                 );
             }
             /* (shop) => shop.field_shop_category === category */
