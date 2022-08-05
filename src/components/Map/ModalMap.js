@@ -1,6 +1,6 @@
 import React from "react";
-import ArrowIcon from "./../../images/arrow.svg";
-import Discount from "./../../images/percent.svg";
+import { ReactComponent as ArrowIcon } from "./../../images/arrow.svg";
+import { ReactComponent as Discount } from "./../../images/percent.svg";
 import parse from "html-react-parser";
 
 class ModalMap extends React.Component {

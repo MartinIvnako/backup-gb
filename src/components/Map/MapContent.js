@@ -3,8 +3,8 @@ import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 import Floor from "./Floor";
 import Navigation from "../Navigation/Navigation";
 import Svg from "./Svg";
-import ZoomInSvg from "./../../images/map-icons/zoom-in.svg";
-import ZoomOutSvg from "./../../images/map-icons/zoom-out.svg";
+import { ReactComponent as ZoomInSvg } from "./../../images/map-icons/zoom-in.svg";
+import { ReactComponent as ZoomOutSvg } from "./../../images/map-icons/zoom-out.svg";
 import ModalMap from "./ModalMap";
 
 export default class App extends Component {

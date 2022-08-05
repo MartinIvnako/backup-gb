@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "./Search";
 import Category from "./Category";
-import LocationIcon from "./../../images/location.svg";
+import { ReactComponent as LocationIcon } from "./../../images/location.svg";
 
 class Navigation extends React.Component {
   constructor(props) {

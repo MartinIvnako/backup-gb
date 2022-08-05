@@ -1,5 +1,5 @@
 import React from "react";
-import ArrowIcon from "./../../images/arrow.svg";
+import { ReactComponent as ArrowIcon } from "./../../images/arrow.svg";
 
 class Category extends React.Component {
   constructor(props) {
@@ -9,10 +9,11 @@ class Category extends React.Component {
   multipleFunction(category) {
     this.props.onSelectCategory(category);
     this.props.toggleClass();
-    document.querySelector('.map__legend-button.active') ? (
-      document.querySelector('.map__legend-button.active').classList.remove('active'),
-      Array.from(document.querySelectorAll(`[data-type]`)).map( icon => icon.classList.remove('active'))
-    ) : null;
+    /* TODO: MIV 2022 */
+    /*     document.querySelector('.map__legend-button.active') ? (
+          document.querySelector('.map__legend-button.active').classList.remove('active'),
+          Array.from(document.querySelectorAll(`[data-type]`)).map(icon => icon.classList.remove('active'))
+        ) : null; */
   }
 
   render() {

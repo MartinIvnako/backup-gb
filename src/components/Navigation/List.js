@@ -1,5 +1,5 @@
 import React from "react";
-import SearchIcon from "./../../images/search.svg";
+import { ReactComponent as SearchIcon } from "./../../images/search.svg";
 import { RemoveAccents } from "./../utils/RemoveAccents";
 
 class List extends React.Component {

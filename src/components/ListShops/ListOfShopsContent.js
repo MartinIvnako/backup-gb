@@ -1,6 +1,6 @@
 import React from "react";
-import ArrowNextIcon from "./../../images/next.svg";
-import Discount from "./../../images/percent.svg";
+import { ReactComponent as ArrowNextIcon } from "./../../images/next.svg";
+import { ReactComponent as Discount } from "./../../images/percent.svg";
 
 class ListOfShopsContent extends React.Component {
   render() {
@@ -43,7 +43,7 @@ class ListOfShopsContent extends React.Component {
                   <span className="list-of-shops__title">{s.title}</span>
                 </div>
 
-              {/*   <div className="list-of-shops__data">
+                {/*   <div className="list-of-shops__data">
                   <ul className="list-of-shops__open">
                      <li>{s.field_shop_opening_hours}</li> 
                     {s.field_opening_hours_export.length > 0
