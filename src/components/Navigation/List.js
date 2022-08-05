@@ -101,15 +101,14 @@ class List extends React.Component {
     keyPress(e) {
         if (e.keyCode == 13) {
             this.props.onFilteredShops(this.state.filtered);
-            /* TODO: MIV 2022 */
-            /*   document.querySelector(".map__legend .active")
-                  ? (document
-                        .querySelector(".map__legend .active")
-                        .classList.remove("active"),
-                    Array.from(document.querySelectorAll(`[data-type]`)).map(
-                        (icon) => icon.classList.remove("active")
-                    ))
-                  : null; */
+
+            const activeLegendButton = document.querySelector(".map__legend .active");
+            if (activeLegendButton) {
+                activeLegendButton.classList.remove("active");
+                Array.from(document.querySelectorAll(`[data-type]`)).map(
+                    (icon) => icon.classList.remove("active")
+                );
+            }
             this.setState({
                 activeSearch: false,
                 inputValue: "",
@@ -119,15 +118,14 @@ class List extends React.Component {
 
     searchClick(item) {
         let selectOneOnClick = [];
-        /* TODO: MIV 2022 */
-        /*   document.querySelector(".map__legend .active")
-              ? (document
-                    .querySelector(".map__legend .active")
-                    .classList.remove("active"),
-                Array.from(document.querySelectorAll(`[data-type]`)).map((icon) =>
-                    icon.classList.remove("active")
-                ))
-              : null; */
+        const activeLegendButton = document.querySelector(".map__legend .active");
+        if (activeLegendButton) {
+            activeLegendButton.classList.remove("active");
+            Array.from(document.querySelectorAll(`[data-type]`)).map(
+                (icon) => icon.classList.remove("active")
+            );
+        }
+
         selectOneOnClick.push(item);
         this.props.onFilteredShops(
             selectOneOnClick ? selectOneOnClick : this.state.filtered
@@ -176,6 +174,7 @@ class List extends React.Component {
                                             href={item.view_node}
                                             key={item.title}
                                             className="dropdown__item-link"
+
                                         ></a>
                                     )}
                                     <div className="img-content">

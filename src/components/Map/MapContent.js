@@ -105,7 +105,9 @@ export default class App extends Component {
             activeButton = buttons[index];
 
         this.props.resetCategoryStyles();
-        /* TODO: MIV 2022 */
+
+        console.log("activeButton", activeButton)
+
         /*   activeButton.classList.contains("active")
               ? (activeButton.classList.remove("active"),
                   services.map((icon) => icon.classList.remove("active")))
@@ -159,8 +161,10 @@ export default class App extends Component {
                 );
                 // find position path
 
+                console.log("shopHover", shopHover);
+
                 let hoverPath = document.querySelector(
-                    `.map__wrap svg g[data-place="${shopHover[0].field_shop_location_on_map}"] [data-popup]`
+                    `.map__wrap svg g[data-place='${shopHover[0].field_shop_location_on_map}'] [data-popup]`
                 );
 
                 var hoverPathPosition = hoverPath.getBoundingClientRect();

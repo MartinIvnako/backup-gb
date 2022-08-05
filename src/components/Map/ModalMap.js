@@ -25,12 +25,6 @@ class ModalMap extends React.Component {
     shopModalClose.addEventListener("click", function () {
       shopModal.classList.remove("open");
     });
-    shopModal.addEventListener("click", function (e) {
-      /* TODO: MIV 2022 */
-      /*    e.target.classList.contains("shop-modal")
-           ? shopModal.classList.remove("open")
-           : null; */
-    });
 
     this.setState({
       modalData: "",

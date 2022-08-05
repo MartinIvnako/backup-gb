@@ -49,15 +49,7 @@ class App extends React.Component {
 
         let url = fullUrl.includes("mapa-centra") ? "map" : "list";
         // create dynamic url for api
-        let urlEndWith = fullUrl.includes("mapa-centra")
-            ? "mapa-centra"
-            : "obchody-a-sluzby";
-
-        urlEndWith = fullUrl.includes(
-            "obchody-a-sluzby/restaurace"
-        )
-            ? "obchody-a-sluzby/restaurace"
-            : urlEndWith;
+        let urlEndWith = "mapa-centra";
 
         let absoluteUrl = "http://local.projects.cz:8073/galerie-butovice/web/";
         /*    let absoluteUrl = fullUrl.replace(urlEndWith, ""); */
@@ -146,18 +138,14 @@ class App extends React.Component {
     }
 
     refreshPage() {
-        const subpageMap = document.querySelector(".path-mapa-centra");
-        // getBoundingClientRect().width
+        const subpageMap = document.querySelector("body");
         if (subpageMap) {
-            /* TODO: MIV 2022 */
-            /*  
             window.addEventListener("resize", () =>
                 this.state.windowWidth !=
-                     subpageMap.getBoundingClientRect().width
-                     ? window.location.reload()
-                     : null 
-                     );
-                     */
+                    subpageMap.getBoundingClientRect().width
+                    ? window.location.reload()
+                    : null
+            );
         }
     }
 

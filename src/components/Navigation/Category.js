@@ -9,11 +9,15 @@ class Category extends React.Component {
   multipleFunction(category) {
     this.props.onSelectCategory(category);
     this.props.toggleClass();
-    /* TODO: MIV 2022 */
-    /*     document.querySelector('.map__legend-button.active') ? (
-          document.querySelector('.map__legend-button.active').classList.remove('active'),
-          Array.from(document.querySelectorAll(`[data-type]`)).map(icon => icon.classList.remove('active'))
-        ) : null; */
+
+    const activeLegendButton = document.querySelector('.map__legend-button.active');
+
+    console.log("activeLegendButton", activeLegendButton)
+    if (activeLegendButton) {
+      activeLegendButton.classList.remove('active');
+      Array.from(document.querySelectorAll(`[data-type]`)).map(icon => icon.classList.remove('active'));
+    }
+
   }
 
   render() {

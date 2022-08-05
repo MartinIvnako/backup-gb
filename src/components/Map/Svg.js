@@ -22,19 +22,13 @@ export default class Svg extends Component {
     //
     const allShops = this.props.list;
     let freePlace = document.querySelector(".map__wrap");
-    /* TODO: 2022 MIV */
 
-    let bodyWidth = 1920;
-    let headerHeight = 50;
-    /*   let bodyWidth = document.querySelector("body").getBoundingClientRect()
-        .width;
-      let headerHeight = document.querySelector(".header").getBoundingClientRect()
-        .height; */
+    let headerHeight = document.querySelector(".header").getBoundingClientRect().height;
+
     // for each path
     let urlLogo;
     let localiationShop;
     let logo;
-    let moreData;
     let imgLogo;
 
     arrayOfPathPlace.map((place) => {
