@@ -442,12 +442,12 @@ export default class App extends Component {
                                     previousScale,
                                     onZoomChange,
 
-                                    options: {
-                                        limitToBounds,
-                                        transformEnabled,
-                                        disabled,
-                                    },
                                     ...rest
+                                    /*  options: {
+                                         limitToBounds,
+                                         transformEnabled,
+                                         disabled,
+                                     }, */
                                 }) => (
                                     <React.Fragment>
                                         <ModalMap

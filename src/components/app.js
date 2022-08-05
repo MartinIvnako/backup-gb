@@ -376,31 +376,11 @@ class App extends React.Component {
 
         return (
             <React.Fragment>
-                <div className="skip-link">
-                    {/* check url and return coorect content : map or list of shops */}
-                    {/*   {this.state.loaded ? this.createCategoryList() : null} */}
-                    {url == "map" ? (
-                        this.state.loaded ? (
-                            <Map
-                                list={list}
-                                category={category}
-                                newlistShops={newlistShops}
-                                onSelectCategory={this.selectCategory}
-                                onFilteredShops={this.filteredShops}
-                                chooseLetter={this.chooseLetter}
-                                categoryTitle={categoryTitle}
-                                numberActiveShopOnFloor={numberActiveShopOnFloor}
-                                legend={legend}
-                                resolveSearchMap={resolveSearchMap}
-                                activeFloor={activeFloor}
-                                selectFloor={this.selectFloor}
-                                correctUrl={correctUrl}
-                                idIncommingShop={idIncommingShop}
-                                resetCategoryStyles={this.resetCategoryStyles}
-                            />
-                        ) : null
-                    ) : this.state.loaded ? (
-                        <ListShops
+                {/* check url and return coorect content : map or list of shops */}
+                {/*   {this.state.loaded ? this.createCategoryList() : null} */}
+                {url == "map" ? (
+                    this.state.loaded ? (
+                        <Map
                             list={list}
                             category={category}
                             newlistShops={newlistShops}
@@ -408,11 +388,29 @@ class App extends React.Component {
                             onFilteredShops={this.filteredShops}
                             chooseLetter={this.chooseLetter}
                             categoryTitle={categoryTitle}
-                            categoryColor={categoryColor}
+                            numberActiveShopOnFloor={numberActiveShopOnFloor}
+                            legend={legend}
+                            resolveSearchMap={resolveSearchMap}
+                            activeFloor={activeFloor}
+                            selectFloor={this.selectFloor}
                             correctUrl={correctUrl}
+                            idIncommingShop={idIncommingShop}
+                            resetCategoryStyles={this.resetCategoryStyles}
                         />
-                    ) : null}
-                </div>
+                    ) : null
+                ) : this.state.loaded ? (
+                    <ListShops
+                        list={list}
+                        category={category}
+                        newlistShops={newlistShops}
+                        onSelectCategory={this.selectCategory}
+                        onFilteredShops={this.filteredShops}
+                        chooseLetter={this.chooseLetter}
+                        categoryTitle={categoryTitle}
+                        categoryColor={categoryColor}
+                        correctUrl={correctUrl}
+                    />
+                ) : null}
             </React.Fragment>
         );
     }

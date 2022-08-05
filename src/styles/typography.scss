@@ -1,0 +1,109 @@
+/*
+* HEADINGS
+*/
+
+h1 {
+	font-size: 42px;
+	font-weight: bold;
+	line-height: 1;
+
+	@media (min-width: $min-lg) {
+		font-size: 56px;
+	}
+}
+
+h2,
+.h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 40px;
+
+	@media (min-width: $min-lg) {
+		font-size: 24px;
+		margin-bottom: 40px;
+	}
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 40px;
+
+	@media (min-width: $min-lg) {
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+	@media (min-width: $min-lg) {
+		font-size: 16px;
+	}
+}
+
+h5 {
+	font-size: 23px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+/*
+* OTHER
+*/
+p {
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: $black;
+	transition: color 200ms ease-in-out;
+
+	&:hover {
+		text-decoration: underline;
+		color: $primary-color;
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+/*
+* LISTS
+*/
+.text-page {
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 30px 0;
+		font-weight: 300;
+
+		li {
+			position: relative;
+			padding-left: 12px;
+
+			&::before {
+				content: '';
+				width: 4px;
+				height: 4px;
+				border-radius: 50%;
+				background: $black;
+				position: absolute;
+				left: 0;
+				top: 7px;
+			}
+		}
+
+		li:not(:last-child) {
+			margin-bottom: 8px;
+		}
+	}
+}

@@ -1,0 +1,50 @@
+// colors
+// $primary-color: #009adf;
+$primary-color: #ffba2a;
+$primary-color-light: lighten($primary-color, 5%);
+$primary-color-lighten: lighten($primary-color, 20%);
+$primary-color-darken: #488c99;
+$primary-color-dark: #478c99;
+
+$header-scroll-bg: #2f2f2f;
+
+$gray-dark: silver;
+$gray-darken: #505050;
+
+$white: #fffefe;
+$white-dark: #E4E6EA;
+$white-darker: #e9e9e9;
+$black: #000;
+$dark: #1b2437;
+$gray: #9d9d9d;
+$gray-light: #b2b2b2;
+$gray-lighten: #7a7a7a;
+
+$gold: #ffba2a;
+$blue: #009adf;
+$blue-light: #61c2d0;
+$blue-lighter: #58AEBA;
+$purple: #b72f88;
+$green: #7ebb35;
+
+// map colors
+$warning: #ffbe36;
+$danger: #ea5b0c;
+$success: #85bf40;
+$info: #0f9fe0;
+$suprise: #bb3b8f;
+
+// socials icons colors
+$facebook: #4267b2;
+$youtube: #DD352E;
+$linkedin: #0077B7;
+
+$box-shadow: 0 3px 20px rgba(0, 0, 0, 0.16);
+$box-shadow-lighter: 18px 18px 50px rgba(0, 0, 0, 0.06);
+
+// breakpoints
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1500px;

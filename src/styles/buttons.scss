@@ -1,0 +1,103 @@
+.btn {
+    position: relative;
+    padding: 4px 50px;
+    border-radius: 14px;
+    line-height: 1.4;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn-primary {
+    color: $white;
+    background: $primary-color;
+    text-decoration: underline;
+    border: 1px solid $primary-color;
+    transition: background 200ms ease-in-out;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+        border: 1px solid $primary-color-light;
+        background: $primary-color-light;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.5);
+    }
+}
+
+.btn-secondary {
+    padding: 6px 25px;
+    background: $blue-lighter;
+    border-color: $blue-lighter;
+    border-radius: 20px;
+    transition: background 300ms ease-in-out;
+
+    &:focus,
+    &:active,
+    &:hover {
+        text-decoration: none;
+        border: 1px solid lighten($blue-lighter, 5%);
+        background: lighten($blue-lighter, 5%);
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba($blue-lighter, 0.5);
+    }
+}
+
+.btn-link {
+    padding: 0;
+    color: $black;
+    text-decoration: underline;
+    transition: color 200ms ease-in-out;
+
+    &:hover {
+        text-decoration: none;
+        color: $primary-color;
+    }
+
+    &:focus {
+        color: $primary-color;
+        box-shadow: none;
+    }
+}
+
+.btn--arrow {
+    &:after {
+        content: url("../images/arrow.svg");
+        position: absolute;
+        right: -10px;
+        top: 0;
+        transform: rotate(-90deg);
+        transition: right 200ms ease-in-out;
+    }
+
+    &:focus:after,
+    &:hover:after {
+        /*  content: url('../images/arrow-hover.svg'); */
+        right: -12px;
+    }
+}
+
+// reset bootstrap
+.btn-primary:not(:disabled):not(.disabled):active {
+    border: 1px solid lighten($blue-light, 5%);
+    background: lighten($blue-light, 5%);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgba($blue-light, 0.5);
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active {
+    border: 1px solid lighten($blue-lighter, 5%);
+    background: lighten($blue-lighter, 5%);
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgba($blue-lighter, 0.5);
+}
