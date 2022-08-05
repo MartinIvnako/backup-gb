@@ -41,9 +41,9 @@ class App extends React.Component {
         const fullUrl = "http://local.projects.cz:8073/galerie-butovice/web/mapa-centra"
         // remove ID from url, take id to show active shop
         const idIncommingShop = window.location.search.substring(4, 8);
+        /*  
         let newUrl = fullUrl.replace(window.location.search, "");
-        /* TODO: MIV 2022 */
-        /*  if (history.pushState) {
+        if (history.pushState) {
              history.pushState(null, null, newUrl);
          } */
 
@@ -118,19 +118,12 @@ class App extends React.Component {
                 legend: res.data,
             });
         });
-        /* TODO: MIV 2022 */
-        /* urlEndWith == "obchody-a-sluzby/restaurace"; */
-        // categories data - name and color
-        /*   axios.get(`${absoluteUrl}export/shops-categories`).then((res) => { */
 
         const subpageMap = document.querySelector("body");
+        let windowWidth = subpageMap
+            ? subpageMap.getBoundingClientRect().width
+            : 0;
 
-
-        /* TODO: MIV 2022 */
-        let windowWidth = 1920;
-        /*      let windowWidth = subpageMap
-                 ? subpageMap.getBoundingClientRect().width
-                 : 0; */
 
         axios
             .get(

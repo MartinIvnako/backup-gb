@@ -63,7 +63,7 @@ export default class Svg extends Component {
           // img settings
           Object.assign(imgLogo, {
             className: `shop__logo ${tooSmallImg}`,
-            src: urlLogo,
+            src: "http://local.projects.cz:8073/" + urlLogo,
           });
 
           let fromLeft = logo.left + "px";

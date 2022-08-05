@@ -93,8 +93,7 @@ class List extends React.Component {
         }
         // Set the filtered state based on what our rules added to newList
         this.setState({
-            /* TODO: MIV 2022 */
-            /*  inputValue: event.target.inputValue, */
+            inputValue: e.target.inputValue,
             filtered: newList,
         });
     }
