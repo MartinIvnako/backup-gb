@@ -23,7 +23,7 @@ export default class Svg extends Component {
     const allShops = this.props.list;
     let freePlace = document.querySelector(".map__wrap");
 
-    let headerHeight = document.querySelector(".header").getBoundingClientRect().height;
+    let headerHeight = document.querySelector("header").getBoundingClientRect().height;
 
     // for each path
     let urlLogo;

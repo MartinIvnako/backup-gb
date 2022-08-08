@@ -319,7 +319,7 @@
     }
 }
 
-.path-mapa-centra {
+.page-react-map {
     g.active {
         path[data-position] {
             fill: #ff9800;
@@ -354,7 +354,7 @@ path[data-position] {
     }
 }
 
-.path-mapa-centra {
+.page-react-map {
     transition: all 0.2s ease-in-out;
     overflow: hidden;
 }

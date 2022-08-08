@@ -31,5 +31,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Prepare project
 
-delete <header> from index.html
-and your page need class "header"
+Add class "page-react-map" for your <body> element
+U page need <header> component, if it true, remove header from public/index.html

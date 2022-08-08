@@ -243,7 +243,7 @@ export default class App extends Component {
             isDown = true;
             startX = e.pageX - svgComponent.offsetLeft;
             scrollLeft = svgComponent.scrollLeft;
-            document.getElementById("page").classList.add("grabbing");
+            document.querySelector(".page-react-map").classList.add("grabbing");
 
             // hide popup
             tooltipWrapper.innerHTML = "";
@@ -267,7 +267,7 @@ export default class App extends Component {
 
         svgComponent.addEventListener("mouseup", (e) => {
             let mouseUpEvent;
-            document.getElementById("page").classList.remove("grabbing");
+            document.querySelector(".page-react-map").classList.remove("grabbing");
             isDown = false;
             this.state.mouseDownEvent && this.state.mouseMoveEvent
                 ? (mouseUpEvent = true)
@@ -333,7 +333,7 @@ export default class App extends Component {
 
         // width svg will be same as container on page
         let svgWidth = document
-            .querySelector(".skip-link")
+            .querySelector(".page-react-map")
             .getBoundingClientRect().width;
 
         if (svgWidth > 575 && svgWidth < 1500) {
@@ -342,13 +342,13 @@ export default class App extends Component {
 
         // position svg from left
         let mapWapperWidth = document
-            .querySelector(".skip-link")
+            .querySelector(".page-react-map")
             .getBoundingClientRect().width;
         let positionSvgLeft = (mapWapperWidth - svgWidth) / 2;
 
         // height svg
         let headerHeight = document
-            .querySelector(".header")
+            .querySelector("header")
             .getBoundingClientRect().height;
         let windowHeight = window.innerHeight;
         let svgHeight = windowHeight - headerHeight - 100;
