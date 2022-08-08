@@ -29,6 +29,11 @@ body {
 
 .container {
     margin: 0 auto;
+
+    max-width: 96vw;
+    @media (min-width: $min-xl) {
+        max-width: 1370px;
+    }
 }
 
 ul {

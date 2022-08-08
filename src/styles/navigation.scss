@@ -62,7 +62,9 @@
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
         max-width: 100%;
-        width: 100%;
+
+        position: relative;
+        width: auto;
 
         @media (min-width: $min-md) {
             flex-wrap: nowrap;
@@ -170,7 +172,7 @@
                 display: none;
                 position: absolute;
                 left: 0;
-                width: 100%;
+                //   width: 100%;
                 background: $white;
                 box-shadow: 0 5px 6px rgba($black, 0.08);
                 z-index: 300;
@@ -355,8 +357,9 @@
                 position: absolute;
                 top: 36px;
                 left: 0;
-                height: 300px;
-                max-height: 60vh;
+                width: 100%;
+                min-height: auto;
+                max-height: 300px;
                 overflow-x: hidden;
                 overflow-y: scroll;
                 background: $white;
