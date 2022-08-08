@@ -13,7 +13,6 @@ export default class App extends Component {
         this.state = {
             type: true,
             limitToBounds: false,
-            //limitToBounds: true,
             panningEnabled: true,
             transformEnabled: true,
             pinchEnabled: true,
@@ -72,7 +71,7 @@ export default class App extends Component {
     showSmallLogo() {
         setTimeout(function () {
             let reactTransformElement = document.querySelector(
-                ".react-transform-element"
+                ".react-transform-component"
             );
             let smallImg = document.querySelectorAll(".smallImg");
             smallImg = [...smallImg];
@@ -184,9 +183,7 @@ export default class App extends Component {
 
                 const listOfOpenHours =
                     shopHover[0].field_opening_hours_export.map(
-                        (open, key) =>
-                            ` <li key="key">${open.label} ${open.value}
-</li>`
+                        (open, key) => ` <li key="key">${open.label} ${open.value}</li>`
                     );
                 const createString = listOfOpenHours.join(" ");
 
@@ -414,26 +411,20 @@ export default class App extends Component {
                                     velocityEqualToMove,
                                     velocity: enableVelocity,
                                 }}
-                                zoomIn={{
-                                    step: 20,
+                                /* zoomIn={{
+                                    step: 0.2,
                                 }}
                                 zoomOut={{
-                                    step: 20,
-                                }}
+                                    step: 0.2,
+                                }} */
                                 pinch={{ disabled: !pinchEnabled }}
                                 doubleClick={{ disabled: !dbClickEnabled }}
                                 wheel={{
                                     wheelEnabled: enableWheel,
                                     touchPadEnabled: enableTouchPadPinch,
                                     limitsOnWheel,
-                                    step: 200,
+                                    step: 0.2,
                                 }}
-                            //  defaultScale={1.01}
-                            //  defaultPositionX={0}
-                            //  defaultPositionY={0}
-                            //  options={{
-                            //    limitToWrapper: true,
-                            //  }}
                             >
                                 {({
                                     zoomIn,
@@ -450,11 +441,6 @@ export default class App extends Component {
                                     onZoomChange,
 
                                     ...rest
-                                    /*  options: {
-                                         limitToBounds,
-                                         transformEnabled,
-                                         disabled,
-                                     }, */
                                 }) => (
                                     <React.Fragment>
                                         <ModalMap
@@ -510,20 +496,7 @@ export default class App extends Component {
                                                             )}
                                                     </ul>
                                                 </div>
-                                                {/*  <div className="map__info">
-                          <span className="badge badge-secondary">
-                            Position x : {positionX}px
-                          </span>
-                          <span className="badge badge-secondary">
-                            Position y : {positionY}px
-                          </span>
-                          <span className="badge badge-secondary">
-                            Scale : {scale}
-                          </span>
-                          <span className="badge badge-secondary">
-                            Previous scale : {previousScale}
-                          </span>
-                        </div> */}
+
                                                 <div className="main-functions">
                                                     <div
                                                         className="map__tools"
@@ -533,38 +506,20 @@ export default class App extends Component {
                                                     >
                                                         <div
                                                             className="zoom-in"
-                                                            onClick={zoomIn}
+                                                            onClick={() => zoomIn()}
                                                             data-testid="zoom-in-button"
                                                         >
                                                             <ZoomInSvg />
                                                         </div>
                                                         <div
                                                             className="zoom-out"
-                                                            onClick={zoomOut}
+                                                            onClick={() => zoomOut()}
                                                             data-testid="zoom-out-button"
                                                         >
                                                             <ZoomOutSvg />
                                                         </div>
 
-                                                        {/*    <button
-                              className="reset"
-                              onClick={setDefaultState}
-                              onClick={() => {
-                                setPositionX(900);
-                                setPositionY(500);
-                                setScale(1.4);
-                              }}
-                              data-testid="reset-button"
-                              >
-                              set
-                            </button> */}
-                                                        {/*     <button
-                              className="reset"
-                              onClick={setDefaultState}
-                              data-testid="reset-button"
-                            >
-                              X
-                            </button>  */}
+
                                                     </div>
                                                     <Floor
                                                         floorList={floorList}

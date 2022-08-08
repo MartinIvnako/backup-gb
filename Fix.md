@@ -1,7 +1,5 @@
 # We need fix this:
 
-## position popup
-
 ## Map show bigger
 
 ## prepare api link

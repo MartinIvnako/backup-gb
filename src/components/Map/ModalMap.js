@@ -26,6 +26,8 @@ class ModalMap extends React.Component {
       shopModal.classList.remove("open");
     });
 
+
+
     this.setState({
       modalData: "",
     });
