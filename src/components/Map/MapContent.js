@@ -163,7 +163,7 @@ export default class App extends Component {
                 // find position path
 
                 let hoverPath = document.querySelector(
-                    `.map__wrap svg g[data-place='${shopHover[0].field_shop_location_on_map}'] [data-popup]`
+                    `.map__wrap svg g[data-place="${shopHover[0].field_shop_location_on_map}"] [data-popup]`
                 );
 
                 var hoverPathPosition = hoverPath.getBoundingClientRect();
@@ -171,19 +171,22 @@ export default class App extends Component {
                 var tooltipWrapperPosition =
                     tooltipWrapper.getBoundingClientRect();
 
+
+
+                const positionTop = hoverPathPosition.top - tooltipWrapperPosition.top + 10;
+                console.log("positionTop", positionTop)
+                if (positionTop < 1) return;
                 /* set position for tooltip */
                 tooltipWrapper.setAttribute(
                     "style",
-                    `top : ${hoverPathPosition.top - tooltipWrapperPosition.top + 10
-                    }px; left:${hoverPathPosition.left}px;`
+                    `top : ${positionTop}px; left:${hoverPathPosition.left}px;`
                 );
 
                 const listOfOpenHours =
                     shopHover[0].field_opening_hours_export.map(
                         (open, key) =>
-                            ` <li key="key">
-          ${open.label} ${open.value}
-          </li>`
+                            ` <li key="key">${open.label} ${open.value}
+</li>`
                     );
                 const createString = listOfOpenHours.join(" ");
 
