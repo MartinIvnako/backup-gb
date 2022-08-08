@@ -6,6 +6,7 @@ import Svg from "./Svg";
 import { ReactComponent as ZoomInSvg } from "./../../images/map-icons/zoom-in.svg";
 import { ReactComponent as ZoomOutSvg } from "./../../images/map-icons/zoom-out.svg";
 import ModalMap from "./ModalMap";
+import { PAGE_URL } from "../utils/variables";
 
 export default class App extends Component {
     constructor(props) {
@@ -479,7 +480,7 @@ export default class App extends Component {
                                                                         >
                                                                             <img
                                                                                 src={
-                                                                                    "http://local.projects.cz:8073/" + l.field_image
+                                                                                    PAGE_URL + l.field_image
                                                                                 }
                                                                                 alt={
                                                                                     l.name

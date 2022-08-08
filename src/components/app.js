@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Map from "./Map/Map";
-import ListShops from "./ListShops/ListShops";
+import { CMS_DEFAULT_PAGE } from "./utils/variables"
 
 class App extends React.Component {
     constructor(props) {
@@ -13,8 +13,6 @@ class App extends React.Component {
             newlistShops: [],
             category: [],
             categoryTitle: "",
-            category: [],
-            url: "",
             numberActiveShopOnFloor: [],
             legend: "",
             activeFloor: 0,
@@ -38,20 +36,12 @@ class App extends React.Component {
     componentDidMount() {
         this.refreshPage();
 
-        const fullUrl = "http://local.projects.cz:8073/galerie-butovice/web/mapa-centra"
         // remove ID from url, take id to show active shop
         const idIncommingShop = window.location.search.substring(4, 8);
-        /*  
-        let newUrl = fullUrl.replace(window.location.search, "");
-        if (history.pushState) {
-             history.pushState(null, null, newUrl);
-         } */
 
-        let url = fullUrl.includes("mapa-centra") ? "map" : "list";
-        // create dynamic url for api
         let urlEndWith = "mapa-centra";
 
-        let absoluteUrl = "http://local.projects.cz:8073/galerie-butovice/web/";
+        let absoluteUrl = CMS_DEFAULT_PAGE;
         /*    let absoluteUrl = fullUrl.replace(urlEndWith, ""); */
 
         axios
@@ -130,7 +120,6 @@ class App extends React.Component {
             });
 
         this.setState({
-            url,
             correctUrl: urlEndWith,
             idIncommingShop,
             windowWidth,
@@ -264,31 +253,30 @@ class App extends React.Component {
         mapNavigationCategory[0].classList.remove("open");
 
         /* map function for category */
-        if (this.state.url) {
-            const paths = Array.from(
-                document.querySelectorAll(".map__wrap svg g")
-            );
+        const paths = Array.from(
+            document.querySelectorAll(".map__wrap svg g")
+        );
 
-            const svgPathsId = paths.map((path) =>
-                path.dataset.place ? path.dataset.place : ""
-            );
+        const svgPathsId = paths.map((path) =>
+            path.dataset.place ? path.dataset.place : ""
+        );
 
-            const categoryShopsId = selectCategory.map(
-                (category) => category.field_shop_location_on_map
-            );
-            let idActivePath = categoryShopsId.filter((id) =>
-                svgPathsId.includes(id)
-            );
+        const categoryShopsId = selectCategory.map(
+            (category) => category.field_shop_location_on_map
+        );
+        let idActivePath = categoryShopsId.filter((id) =>
+            svgPathsId.includes(id)
+        );
 
-            /* TODO: add function form remove class */
-            let resultAtivePaths = paths.map((path) =>
-                idActivePath.map((idPath) =>
-                    path.dataset.place === idPath
-                        ? path.classList.add("active")
-                        : null
-                )
-            );
-        }
+        /* TODO: add function form remove class */
+        let resultAtivePaths = paths.map((path) =>
+            idActivePath.map((idPath) =>
+                path.dataset.place === idPath
+                    ? path.classList.add("active")
+                    : null
+            )
+        );
+
 
         let categoryDetail = this.state.category.filter(
             (c) => c.name == category
@@ -346,12 +334,10 @@ class App extends React.Component {
             category,
             newlistShops,
             categoryTitle,
-            url,
             numberActiveShopOnFloor,
             legend,
             activeFloor,
             resolveSearchMap,
-            categoryColor,
             correctUrl,
             idIncommingShop,
         } = this.state;
@@ -360,8 +346,8 @@ class App extends React.Component {
             <React.Fragment>
                 {/* check url and return coorect content : map or list of shops */}
                 {/*   {this.state.loaded ? this.createCategoryList() : null} */}
-                {url == "map" ? (
-                    this.state.loaded ? (
+                {this.state.loaded &&
+                    (
                         <Map
                             list={list}
                             category={category}
@@ -379,20 +365,8 @@ class App extends React.Component {
                             idIncommingShop={idIncommingShop}
                             resetCategoryStyles={this.resetCategoryStyles}
                         />
-                    ) : null
-                ) : this.state.loaded ? (
-                    <ListShops
-                        list={list}
-                        category={category}
-                        newlistShops={newlistShops}
-                        onSelectCategory={this.selectCategory}
-                        onFilteredShops={this.filteredShops}
-                        chooseLetter={this.chooseLetter}
-                        categoryTitle={categoryTitle}
-                        categoryColor={categoryColor}
-                        correctUrl={correctUrl}
-                    />
-                ) : null}
+                    )}
+
             </React.Fragment>
         );
     }

@@ -2,6 +2,8 @@ import React from "react";
 import Search from "./Search";
 import Category from "./Category";
 import { ReactComponent as LocationIcon } from "./../../images/location.svg";
+import { URL_PAGE_MAP } from "../utils/variables";
+
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class Navigation extends React.Component {
 
 
   createUrl() {
-    const fullUrl = "http://local.projects.cz:8073/galerie-butovice/web/mapa-centra";
+    const fullUrl = URL_PAGE_MAP;
     // const fullUrl = fullUrl;
     let urlEndWith = fullUrl.endsWith("mapa-centra")
       ? "mapa-centra"

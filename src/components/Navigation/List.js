@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactComponent as SearchIcon } from "./../../images/search.svg";
 import { RemoveAccents } from "./../utils/RemoveAccents";
+import { PAGE_URL, URL_PAGE_MAP } from "../utils/variables";
 
 class List extends React.Component {
     constructor(props) {
@@ -24,7 +25,7 @@ class List extends React.Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        const fullUrl = "http://local.projects.cz:8073/galerie-butovice/web/mapa-centra";
+        const fullUrl = URL_PAGE_MAP;
         let mapSubpage = fullUrl.endsWith("mapa-centra")
             ? true
             : false;
@@ -178,7 +179,7 @@ class List extends React.Component {
                                         ></a>
                                     )}
                                     <div className="img-content">
-                                        <img src={"http://local.projects.cz:8073/" + item.field_shop_logo} />
+                                        <img src={PAGE_URL + item.field_shop_logo} />
                                     </div>
                                     <div className="info">
                                         <p className="title">{item.title}</p>

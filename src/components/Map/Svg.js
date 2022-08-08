@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { PAGE_URL } from "../utils/variables";
 export default class Svg extends Component {
   constructor(props) {
     super(props);
@@ -57,7 +57,7 @@ export default class Svg extends Component {
           // img settings
           Object.assign(imgLogo, {
             className: `shop__logo ${tooSmallImg}`,
-            src: "http://local.projects.cz:8073/" + urlLogo,
+            src: PAGE_URL + urlLogo,
           });
 
           let fromLeft = logo.left + "px";
