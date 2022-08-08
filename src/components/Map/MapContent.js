@@ -174,7 +174,7 @@ export default class App extends Component {
 
 
                 const positionTop = hoverPathPosition.top - tooltipWrapperPosition.top + 10;
-                console.log("positionTop", positionTop)
+                /* it is calling 2xtimes and second time get bad height */
                 if (positionTop < 1) return;
                 /* set position for tooltip */
                 tooltipWrapper.setAttribute(
