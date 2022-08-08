@@ -277,7 +277,7 @@
             @media (min-width: $min-sm) {
                 width: 1330px;
                 left: calc(50% - 663px);
-                top: -247px;
+                top: -177px;
             }
 
             @media (min-width: $min-md) {
@@ -287,13 +287,13 @@
             }
 
             @media (min-width: $min-lg) {
-                top: -286px;
+                top: -356px;
                 left: calc(50% - 915px);
                 width: 1950px;
             }
 
             @media (min-width: $min-xl) {
-                top: -326px;
+                top: -376px;
                 left: calc(50% - 930px);
                 width: 1970px;
             }
@@ -305,9 +305,9 @@
             }
 
             @media (min-width: 1920px) {
-                width: 2629px;
-                top: -514px;
-                left: calc(50% - 1275px);
+                top: -446px;
+                left: calc(50% - 1160px);
+                width: 2350px;
             }
         }
     }
